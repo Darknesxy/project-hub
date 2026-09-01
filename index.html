@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Explore Subojit's projects, experiments and technical learning journey."
+  >
+
+  <title>Project Hub | Subojit Das Sarkar</title>
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  >
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+
+  <header class="navbar">
+
+    <div class="nav-container">
+
+      <a href="#home" class="logo">
+        <span>&lt;</span>Subojit<span>/&gt;</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#categories">Categories</a>
+        <a href="#about">About</a>
+      </nav>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Open navigation"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+
+  </header>
+
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero section-reveal" id="home">
+
+      <div class="hero-glow"></div>
+
+      <div class="hero-content">
+
+        <div class="eyebrow">
+          <span class="eyebrow-dot"></span>
+          MY DIGITAL WORKSPACE
+        </div>
+
+        <h1>
+          Explore What
+          <span>I Build.</span>
+        </h1>
+
+        <p>
+          A growing collection of websites, applications,
+          experiments and technical projects built while
+          learning and exploring technology.
+        </p>
+
+        <div class="hero-actions">
+
+          <a href="#projects" class="btn btn-primary">
+            Explore Projects
+            <i class="fa-solid fa-arrow-down"></i>
+          </a>
+
+          <a href="#categories" class="btn btn-secondary">
+            Browse Categories
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="hero-orbit">
+
+        <div class="orbit-ring ring-one"></div>
+        <div class="orbit-ring ring-two"></div>
+
+        <div class="orbit-core">
+          <i class="fa-solid fa-code"></i>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= QUICK STATS ================= -->
+
+    <section class="stats section-reveal">
+
+      <div class="stats-grid">
+
+        <div class="stat-card">
+          <span class="stat-number" id="projectCount">0</span>
+          <span class="stat-label">Projects</span>
+        </div>
+
+        <div class="stat-card">
+          <span class="stat-number">6</span>
+          <span class="stat-label">Categories</span>
+        </div>
+
+        <div class="stat-card">
+          <span class="stat-number">∞</span>
+          <span class="stat-label">Ideas</span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section
+      class="projects-section section-reveal"
+      id="projects"
+    >
+
+      <div class="section-heading">
+
+        <div>
+          <span class="section-label">// SELECTED WORK</span>
+
+          <h2>
+            Projects & Experiments
+          </h2>
+        </div>
+
+        <p>
+          Real things I build while learning,
+          experimenting and improving.
+        </p>
+
+      </div>
+
+
+      <!-- Search -->
+
+      <div class="project-controls">
+
+        <div class="search-box">
+
+          <i class="fa-solid fa-magnifying-glass"></i>
+
+          <input
+            type="search"
+            id="projectSearch"
+            placeholder="Search projects..."
+            autocomplete="off"
+          >
+
+        </div>
+
+      </div>
+
+
+      <!-- Project Grid -->
+
+      <div
+        class="project-grid"
+        id="projectGrid"
+      >
+
+        <!-- Projects will be added dynamically -->
+
+      </div>
+
+      <div
+        class="empty-state"
+        id="emptyState"
+      >
+        <i class="fa-regular fa-folder-open"></i>
+
+        <h3>Projects are coming soon.</h3>
+
+        <p>
+          New projects will appear here as they are completed.
+        </p>
+      </div>
+
+    </section>
+
+
+    <!-- ================= CATEGORIES ================= -->
+<!-- ================= BUILDING IN PUBLIC ================= -->
+
+<section class="building-section section-reveal" id="building">
+
+  <div class="section-heading">
+    <div>
+      <span class="section-label">// BUILDING IN PUBLIC</span>
+      <h2>What I'm Exploring</h2>
+    </div>
+
+    <p>
+      Technologies and areas I'm currently learning,
+      practicing and building toward.
+    </p>
+  </div>
+
+  <div class="building-grid">
+
+    <article class="building-card">
+      <span class="building-number">01</span>
+
+      <div class="building-icon">
+        <i class="fa-solid fa-globe"></i>
+      </div>
+
+      <div>
+        <h3>Web Development</h3>
+        <p>
+          Building responsive websites and learning
+          modern web technologies.
+        </p>
+      </div>
+
+      <span class="building-status">
+        Exploring
+      </span>
+    </article>
+
+
+    <article class="building-card">
+      <span class="building-number">02</span>
+
+      <div class="building-icon">
+        <i class="fa-solid fa-cloud"></i>
+      </div>
+
+      <div>
+        <h3>Cloud Computing</h3>
+        <p>
+          Exploring cloud platforms, infrastructure
+          and deployment concepts.
+        </p>
+      </div>
+
+      <span class="building-status">
+        Learning
+      </span>
+    </article>
+
+
+    <article class="building-card">
+      <span class="building-number">03</span>
+
+      <div class="building-icon">
+        <i class="fa-solid fa-shield-halved"></i>
+      </div>
+
+      <div>
+        <h3>Cybersecurity</h3>
+        <p>
+          Learning security fundamentals and
+          authorized security practices.
+        </p>
+      </div>
+
+      <span class="building-status">
+        Learning
+      </span>
+    </article>
+
+
+    <article class="building-card">
+      <span class="building-number">04</span>
+
+      <div class="building-icon">
+        <i class="fa-solid fa-network-wired"></i>
+      </div>
+
+      <div>
+        <h3>Networking</h3>
+        <p>
+          Practicing networking concepts,
+          protocols and infrastructure basics.
+        </p>
+      </div>
+
+      <span class="building-status">
+        Practicing
+      </span>
+    </article>
+
+  </div>
+
+</section>
+
+
+<!-- ================= CATEGORIES ================= -->
+
+<section
+  class="categories-section section-reveal"
+  id="categories"
+>
+
+  <div class="section-heading">
+
+    <div>
+      <span class="section-label">// EXPLORE</span>
+
+      <h2>
+        Project Categories
+      </h2>
+    </div>
+
+    <p>
+      Explore projects by technology and focus.
+    </p>
+
+  </div>
+
+
+  <div class="category-grid">
+
+
+    <!-- WEB DEVELOPMENT -->
+
+    <article
+      class="category-card"
+      data-category="Web Development"
+      tabindex="0"
+    >
+
+      <div class="category-icon">
+        <i class="fa-solid fa-globe"></i>
+      </div>
+
+      <div>
+        <h3>Web Development</h3>
+        <p>
+          Websites, interfaces and web applications.
+        </p>
+      </div>
+
+      <span class="category-arrow">→</span>
+
+    </article>
+
+
+    <!-- CLOUD COMPUTING -->
+
+    <article
+      class="category-card"
+      data-category="Cloud Computing"
+      tabindex="0"
+    >
+
+      <div class="category-icon">
+        <i class="fa-solid fa-cloud"></i>
+      </div>
+
+      <div>
+        <h3>Cloud Computing</h3>
+        <p>
+          Cloud technologies, AWS and deployments.
+        </p>
+      </div>
+
+      <span class="category-arrow">→</span>
+
+    </article>
+
+
+    <!-- CYBERSECURITY -->
+
+    <article
+      class="category-card"
+      data-category="Cybersecurity"
+      tabindex="0"
+    >
+
+      <div class="category-icon">
+        <i class="fa-solid fa-shield-halved"></i>
+      </div>
+
+      <div>
+        <h3>Cybersecurity</h3>
+        <p>
+          Security learning and authorized experiments.
+        </p>
+      </div>
+
+      <span class="category-arrow">→</span>
+
+    </article>
+
+
+    <!-- NETWORKING -->
+
+    <article
+      class="category-card"
+      data-category="Networking"
+      tabindex="0"
+    >
+
+      <div class="category-icon">
+        <i class="fa-solid fa-network-wired"></i>
+      </div>
+
+      <div>
+        <h3>Networking</h3>
+        <p>
+          Networking concepts and practical work.
+        </p>
+      </div>
+
+      <span class="category-arrow">→</span>
+
+    </article>
+
+
+    <!-- PROGRAMMING -->
+
+    <article
+      class="category-card"
+      data-category="Programming"
+      tabindex="0"
+    >
+
+      <div class="category-icon">
+        <i class="fa-solid fa-code"></i>
+      </div>
+
+      <div>
+        <h3>Programming</h3>
+        <p>
+          Applications, utilities and coding projects.
+        </p>
+      </div>
+
+      <span class="category-arrow">→</span>
+
+    </article>
+
+
+    <!-- EXPERIMENTS -->
+
+    <article
+      class="category-card"
+      data-category="Experiments"
+      tabindex="0"
+    >
+
+      <div class="category-icon">
+        <i class="fa-solid fa-flask"></i>
+      </div>
+
+      <div>
+        <h3>Experiments</h3>
+        <p>
+          Ideas, prototypes and learning experiments.
+        </p>
+      </div>
+
+      <span class="category-arrow">→</span>
+
+    </article>
+
+
+  </div>
+
+</section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section
+      class="about-section section-reveal"
+      id="about"
+    >
+
+      <div class="about-card">
+
+        <span class="section-label">// ABOUT THE HUB</span>
+
+        <h2>
+          Learn. Build. Experiment.
+          <span>Improve.</span>
+        </h2>
+
+        <p>
+          This Project Hub is a living collection of my
+          technical journey. As I learn new technologies
+          and build genuine projects, they will be added
+          here with their details, technologies, demos
+          and learning outcomes.
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="footer">
+
+    <p>
+      Built with HTML, CSS & JavaScript.
+    </p>
+
+    <p>
+      © 2026 Subojit Das Sarkar
+    </p>
+
+  </footer>
+
+
+  <!-- Main JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
