@@ -1,20 +1,23 @@
-# 🚀 Project Hub
+<div align="center">
 
-### 🌐 My Digital Space for Projects, Experiments & Learning
+# 🚀 PROJECT HUB
 
-Welcome to my **Project Hub** — a collection of projects and experiments I build while learning and growing in **Web Development, Cloud Computing, Cybersecurity, Networking, and Programming**.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2800&pause=900&color=2DA7FF&center=true&vCenter=true&width=650&lines=Welcome+to+My+Project+Hub;Web+Development+%7C+Cloud+Computing;Cybersecurity+%7C+Networking;Learn+%E2%80%A2+Build+%E2%80%A2+Experiment+%E2%80%A2+Improve" alt="Typing Animation">
 
-> 💡 **Learn → Build → Experiment → Improve → Repeat**
+<br>
+
+![Status](https://img.shields.io/badge/Status-Active%20Development-2DA7FF?style=for-the-badge)
+![Focus](https://img.shields.io/badge/Focus-Cloud%20%26%20Cybersecurity-8B5CF6?style=for-the-badge)
+
+</div>
 
 ---
 
-## 🧑‍💻 About This Project
+## 👋 Welcome
 
-This Project Hub is created to showcase my technical journey and the practical work I build along the way.
+Welcome to my **Project Hub** — a place where I showcase the projects, experiments, and practical work I build while learning technology.
 
-I'm continuously learning new technologies and turning what I learn into real, practical projects.
-
-### 🎯 Current Focus
+My current learning journey focuses on:
 
 - 🌐 Web Development
 - ☁️ Cloud Computing
@@ -23,22 +26,84 @@ I'm continuously learning new technologies and turning what I learn into real, p
 - 🐧 Linux
 - 💻 Programming
 - ☁️ AWS & Cloud Technologies
-- 🛠️ Practical Problem Solving
+
+> **Learn → Build → Experiment → Improve**
 
 ---
 
-## 🗂️ Project Categories
+## 🧑‍💻 About This Project
+
+This website is designed to organize and showcase my technical work in one place.
+
+As I learn new technologies and complete genuine projects, they will be added here with their source code, live demonstrations, technologies used, and key learning outcomes.
+
+---
+
+## 🛠️ Technologies
+
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-Learning-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+
+</div>
+
+---
+
+## 📂 Project Categories
 
 | Category | Focus |
 |---|---|
-| 🌐 Web Development | HTML, CSS, JavaScript & modern web projects |
-| ☁️ Cloud Computing | Cloud fundamentals, AWS & cloud-based learning |
-| 🔐 Cybersecurity | Security fundamentals, safe security learning & experiments |
+| 🌐 Web Development | Websites, UI and frontend development |
+| ☁️ Cloud Computing | Cloud fundamentals, AWS and cloud technologies |
+| 🔐 Cybersecurity | Security fundamentals and safe security learning |
 | 🌍 Networking | Networking concepts and practical learning |
-| 💻 Programming | Coding practice and software development |
-| 🧪 Experiments | Small experiments, ideas and prototypes |
+| 💻 Programming | Programming practice and development |
+| 🧪 Experiments | Small experiments, prototypes and ideas |
 
 ---
+
+## 🚀 Featured Projects
+
+<div align="center">
+
+### 🚧 Projects Coming Soon
+
+I'm currently learning and building practical projects.
+
+New projects will be added here as they are completed.
+
+</div>
+
+---
+
+## 📈 My Learning Journey
+
+```text
+        🌐 WEB DEVELOPMENT
+                │
+                ▼
+       💻 PROGRAMMING
+                │
+                ▼
+        🌍 NETWORKING
+                │
+                ▼
+           🐧 LINUX
+                │
+                ▼
+       ☁️ CLOUD COMPUTING
+                │
+                ▼
+       🔐 CYBERSECURITY
+                │
+                ▼
+        ☁️ CLOUD SECURITY
 
 ## ⚡ Tech Stack
 
